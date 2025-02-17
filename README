@@ -3,3 +3,6 @@ first go to backend and type "node index.js" to start backend server
 next go to frontend and type "npm start" to start frontend server
 backend ip = "localhost:5000"
 frontend ip = "localhost:3000"
+
+<h1>How To Check Install Node.js</h1>
+<p><h2>open cmd and type "node --version"</h2>
