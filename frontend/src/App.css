@@ -1,38 +1,101 @@
 .App {
+  background-color: #FFF8E9;
+  display:grid;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+}
+.Logo {
+  width: 50%;
+  height: 100%;
+  font-family: "Kavoon", serif;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Logo img {
+  width: 10%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.LoginForm {
+  font-family: "Kaisei Tokumin", serif;
+  width: 50%;
+  height: 80%;
+  transform: translateY(-150px);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.InputEmail h2 {
+  margin-bottom: 5px;
 }
+.inpEmail {
+  background-color: #FFCBBF;
+  border: none;
+  font-family: "Kaisei Tokumin", serif;
+  padding: 10px 10px;
+  border-radius: 5px;
+  width: 50%;
+  background-image: url("./logo/envelope-solid.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-position: 5px;
+  background-size: 32px;
+  padding-left: 50px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.InputPassword h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.inpPassword {
+  background-color: #FFCBBF;
+  border: none;
+  font-family: "Kaisei Tokumin", serif;
+  padding: 10px 10px;
+  border-radius: 5px;
+  width: 50%;
+  background-image: url("./logo/lock-solid.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-position: 5px;
+  background-size: 30px;
+  padding-left: 50px;
+}
+.submitBTN {
+  width: 50%;
+  text-align: center;
+}
+.SubmitBTN {
+  background-color: #BCD3F9;
+  height: 100%;
+  border: none;
+  padding: 5% 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.SubmitBTN:hover {
+  background-color: #83a9f0;
+}
+.CreateAccount:link {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+.CreateAccount:hover {
+  color: red;
+}
+.ForgotPass{
+  display: grid;
+  text-align: center;
+  width: 50%;
+  transform: translateY(-25px);
+}
+.Forgotpass:link {
+  color: gray;
+  text-decoration: none;
+  opacity: 50%;
+}
+.Forgotpass:hover {
+  color: red;
+  text-decoration: underline;
 }
