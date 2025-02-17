@@ -1,8 +1,21 @@
-Install https://nodejs.org/en
-first go to backend and type "node index.js" to start backend server
-next go to frontend and type "npm start" to start frontend server
-backend ip = "localhost:5000"
-frontend ip = "localhost:3000"
+วิธีการติดตั้งและเริ่มต้นโปรเจกต์
+ติดตั้ง Node.js
 
-How To Check Install Node.js
-open cmd and type "node --version"
+เข้าไปที่ลิงก์ Node.js แล้วดาวน์โหลดและติดตั้งโปรแกรม
+ตรวจสอบการติดตั้ง Node.js
+
+เปิดโปรแกรม Command Prompt (cmd)
+พิมพ์คำสั่ง node --version แล้วกด Enter
+หากติดตั้งสำเร็จ จะมีหมายเลขเวอร์ชันของ Node.js แสดงขึ้นมา
+เริ่มต้นเซิร์ฟเวอร์ฝั่ง Backend
+
+เปิดโปรแกรม Command Prompt (cmd)
+ไปที่โฟลเดอร์ backend ของโปรเจกต์
+พิมพ์คำสั่ง node index.js แล้วกด Enter
+เซิร์ฟเวอร์ฝั่ง Backend จะเริ่มทำงานที่ localhost:5000
+เริ่มต้นเซิร์ฟเวอร์ฝั่ง Frontend
+
+เปิดโปรแกรม Command Prompt (cmd) ใหม่
+ไปที่โฟลเดอร์ frontend ของโปรเจกต์
+พิมพ์คำสั่ง npm start แล้วกด Enter
+เซิร์ฟเวอร์ฝั่ง Frontend จะเริ่มทำงานที่ localhost:3000
