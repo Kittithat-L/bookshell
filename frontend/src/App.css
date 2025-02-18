@@ -1,18 +1,19 @@
-.App {
+body {
   background-color: #FFF8E9;
+}
+.App {
   display:grid;
-  height: 100vh;
 }
 .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  height: 100%;
+  height: 90vh;
   padding: 0;
+  margin: 0;
 }
 .Logo {
   width: 50%;
-  height: 100%;
+  height: 30%;
   font-family: "Kavoon", serif;
   text-align: center;
 }
@@ -22,8 +23,8 @@
 .LoginForm {
   font-family: "Kaisei Tokumin", serif;
   width: 50%;
-  height: 80%;
-  transform: translateY(-150px);
+  height: 50%;
+
 }
 .InputEmail h2 {
   margin-bottom: 5px;
